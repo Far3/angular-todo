@@ -1,24 +1,32 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<title>Angular TODO List</title>
-		<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-		<link href='css/main.css' rel='stylesheet' type="text/css">
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
-	</head>
-	
-	<!--directives are the ng-app, the parameter is the "todoListApp", string must match directly.-->
-	<body ng-app="todoListApp">
-		<h1>This is working</h1>
-		<p>{{name}}</p>
-		
-		<!--helloWorld turns into  hello-world-->
-		<!--HTML is case insensitive and convention is lowercase tags.-->
-		<hello-world></hello-world>
-		
-		<script src="js/app.js" type="text/javascript"></script>
-		<script src="js/hello.js" type="text/javascript"></script>
-		
-	</body>
+
+<head>
+	<title>Angular TODO List</title>
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<link href='css/main.css' rel='stylesheet' type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+</head>
+
+<!--directives are the ng-app, the parameter is the "todoListApp", string must match directly.-->
+
+<body ng-app="todoListApp">
+	<!--helloWorld turns into  hello-world-->
+	<!--HTML is case insensitive and convention is lowercase tags.-->
+	<h1>My TODOs</h1>
+	<div class="list" ng-controller="mainCtrl">
+		<input type="checkbox"/>
+		<label class="editing-label" ng-click="helloWorld()">Workout</label>
+		<input class="editing-label" type="text" />
+
+		<div class="actions" ng-controller="coolCtrl">
+			<a href="javascript:void(0);" class="edit" ng-click="whoAmI()">Edit</a>
+			<a href="javascript:void(0);" ng-click="helloWorld()" class="save">Save</a>
+			<a href="javascript:void(0);" class="delete">Delete</a>
+			
+		</div>
+		</div>
+	<script src="js/app.js" type="text/javascript"></script>
+</body>
 
 </html>
