@@ -8,18 +8,19 @@
 
 // });
 
-
-
 var app = angular.module('todoListApp', []);
 app.controller('mainCtrl', function($scope) {
 	$scope.helloWorld = function() {
-		console.log('This is the hello world controller function.');
+		console.log('You have saved');
 	};
+	
+	$scope.todos = [
+		{"name": "Lift At ECC"},	
+		{"name": "Clean Room"},
+		{"name": "Order United MPE Card"},
+		{"name": "Make a post"},
+		{"name": "New Money Comedy"},
+		{"name": "King Soopers Run"}	
+	]
 
-});
-
-app.controller('coolCtrl', function($scope) {
-	$scope.whoAmI = function() {
-		console.log('We are in the coolCtrl');	
-	};
 });

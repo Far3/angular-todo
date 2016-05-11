@@ -54,7 +54,7 @@ a {
   .list .add {
     padding: 25px 0 27px 25px; }
 
-input[type="checkbox"] {
+/*input[type="checkbox"] {
     display:none;
 }
 input[type="checkbox"] + span {
@@ -68,4 +68,22 @@ input[type="checkbox"] + span {
 }
 input[type="checkbox"]:checked + span {
     background:url(checkbox-filled.svg) left top no-repeat;
-}
+}*/
+
+/*What is your credit score?
+1. 750/60s
+	
+What cards do you currently have? For better results also add the date you were approved for the cards.
+2. Chase Freedom, CSP (Both December 2015) , 80K combined points. Sallie mae gas/groceries(sept 15), capitalone venture (dec 2014),
+	 
+Are you targeting points, Companion Passes, hotel or airline statuses, First Class, Biz, Economy seating(s) or cash back?
+3. I am targeting airline points for travel only, economy. No hotels, no cash back, don’t care about 1st class.
+	
+What point/miles do you currently have?
+4. 80k points on CSP
+	
+What is the airport you're flying out of?
+5. DEN
+		
+Where would you like to go? (The More specific you are, the better someone can recommend the right card. Tokyo is great, "International travel" is way too vague)
+6. DEN to HNL, DEN to LAX/Burbank (socal), DEN to LGA.*/
